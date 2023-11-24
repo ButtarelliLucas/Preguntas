@@ -8,7 +8,7 @@ const Home = () => {
             <img src={logoI} className="logo-container"alt="logo" />
         </div>
         <h2>
-             Pagina en estado más alpha que beta.
+             Sociedad Argentina de Inteligencia Artificial.
         </h2>
     </div>
   );
