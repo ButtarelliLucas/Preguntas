@@ -146,7 +146,7 @@ const QuizComponent = () => {
                     <strong>{i + 1}. {pregunta} </strong>
                   </p>
                   {/* Mostramos la respuesta, incluyendo el saludo inicial y el saludo final */}
-                  <p className="respuesta-text">{greeting}. {group.respuestas[i]} Si tienes otra pregunta, no dudes en consultar. {finalSaludo}</p>
+                  <p className="respuesta-text">{greeting}. {group.respuestas[i]} {finalSaludo}</p>
                 </div>
               ))}
             </div>
