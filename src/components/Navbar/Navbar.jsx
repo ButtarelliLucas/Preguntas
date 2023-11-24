@@ -13,7 +13,7 @@ const Navbar = () => {
           <img src={logoI} className="logo" alt="Vite logo" />
           </NavLink>
             <NavLink to="/ml-preguntas" activeClassName="active-link">
-              <button>SAIA Preguntas</button>
+              <button>Preguntas</button>
             </NavLink>
 
       </div>
