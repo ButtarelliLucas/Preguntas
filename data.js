@@ -4,7 +4,7 @@
 const Database = [
       {
         "id": 1,
-        "articulo": "",
+        "articulo": "Ubicacion",
         "sku": "",
         "pregunta": "",
         "respuestaCorrecta": ""
