@@ -101,10 +101,10 @@ const QuizComponent = () => {
     <div>
       <div>
         {/* Campo de búsqueda */}
-        <p>Ingrese SKU, palabra clave de la pregunta, o parte del nombre de la publicación</p>
+        <p>Ingrese palabra clave de la pregunta o tema, ejemplo "horarios"</p>
         <input
           type="text"
-          placeholder="Buscar art/SKU/pregunta..."
+          placeholder="Buscar pregunta..."
           value={searchTerm}
           onChange={handleSearch}
         />
@@ -112,7 +112,7 @@ const QuizComponent = () => {
       <br />
       <div>
         {/* Campo de saludo final */}
-        <p>Ingrese saludo final, (PC Center/2012PC/Tienda Oficial) o su nombre, También puede quedar el espacio vacío</p>
+        <p>Ingrese saludo final o su nombre, (El espacio también puede quedar el espacio vacío)</p>
         <input
           type="text"
           placeholder="Escribe tu saludo final aquí..."
@@ -146,7 +146,7 @@ const QuizComponent = () => {
                     <strong>{i + 1}. {pregunta} </strong>
                   </p>
                   {/* Mostramos la respuesta, incluyendo el saludo inicial y el saludo final */}
-                  <p className="respuesta-text">{greeting}. {group.respuestas[i]} Saludos, {finalSaludo}</p>
+                  <p className="respuesta-text">{greeting}. {group.respuestas[i]} Si tienes otra pregunta, no dudes en consultar. {finalSaludo}</p>
                 </div>
               ))}
             </div>

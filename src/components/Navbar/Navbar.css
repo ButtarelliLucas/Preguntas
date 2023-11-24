@@ -18,7 +18,7 @@ nav {
   }
   
   .logo {
-    width: 100%;
+    width: 100px;
     max-width: 200px; /* Ajusta el tamaño del logo según tus necesidades */
     height: auto;
   }
@@ -42,8 +42,8 @@ nav {
     background-color: #555;
   }
   
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .navbar-container {
       flex-direction: column;
     }
-  }
+  } */
