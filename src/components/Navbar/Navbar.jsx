@@ -16,11 +16,6 @@ const Navbar = () => {
               <button>Preguntas</button>
             </NavLink>
 
-
-            <NavLink to="/ml-mensajeria" activeClassName="active-link">
-              <button>Preguntas 2</button>
-            </NavLink>
-
       </div>
     </nav>
   );
