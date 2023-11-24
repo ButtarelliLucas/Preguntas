@@ -6,22 +6,22 @@ const Database = [
         "id": 1,
         "articulo": "Ubicacion",
         "sku": "",
-        "pregunta": "",
-        "respuestaCorrecta": ""
+        "pregunta": "¿Cual es la dirección del evento?",
+        "respuestaCorrecta": "En la sede de UTN en Av. Medrano 951 CABA"
       },
       {
         "id": 2,
-        "articulo": "",
+        "articulo": "Horario",
         "sku": "",
-        "pregunta": "",
-        "respuestaCorrecta": ""
+        "pregunta": "¿A que hora comienza el evento?",
+        "respuestaCorrecta": "Las charlas en el evento comienzan a las 14.00 hs. y finalizan a las 17:30 hs. Luego habra un espacio de Networking hasta las 19:00 hs"
       },
       {
         "id": 3,
-        "articulo": "",
+        "articulo": "Stream",
         "sku": "",
-        "pregunta": "",
-        "respuestaCorrecta": ""
+        "pregunta": "¿Donde puedo ver el evento en vivo?",
+        "respuestaCorrecta": "Si no podes asistir al evento podes visuarlizarlo desde el siguiente link: https://linkdelstream.com"
       },
       {
         "id": 4,
