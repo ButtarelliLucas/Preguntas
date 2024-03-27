@@ -7,8 +7,7 @@ const Home = () => {
         <div>
             <img src={logoI} className="logo-container"alt="logo" />
         </div>
-        <h2>
-            Info Preguntas Mercadolibre y Mensajeria.
+        <h2> Info Preguntas Mercadolibre y Mensajeria.
         </h2>
     </div>
   );
