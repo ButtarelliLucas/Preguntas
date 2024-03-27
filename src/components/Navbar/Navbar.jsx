@@ -13,7 +13,13 @@ const Navbar = () => {
           <img src={logoI} className="logo" alt="Vite logo" />
           </NavLink>
             <NavLink to="/ml-preguntas" activeClassName="active-link">
-              <button>Preguntas</button>
+              <button>ML Preguntas</button>
+            </NavLink>
+            <NavLink to="/ml-mensajeria" activeClassName="active-link">
+              <button>ML Mensajeria</button>
+            </NavLink>
+            <NavLink to="/servicio-tecnico" activeClassName="active-link">
+              <button>Servicio Tecnico</button>
             </NavLink>
 
       </div>
